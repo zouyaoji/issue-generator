@@ -1,40 +1,21 @@
 [
   {
     "lang": "zh-CN",
-    "intro": "Hi，我们为了中文用户的方便提供了中文的表单，但在填写时请<strong>尽量使用英文</strong>。Element 的社区有很多国外用户，如果你希望尽可能多的人能够看懂你的 issue，就请尽量用英文。",
+    "intro": "Hi，我们为了中文用户的方便提供了中文的表单，但在填写时请<strong>尽量使用英文</strong>。",
     "repoSelectHint": "选择要提交 issue 的库",
     "repos": [
       {
-        "name": "Element UI",
-        "github": "ElemeFE/element",
-        "npm": "element-ui",
+        "name": "VueCesium",
+        "github": "zouyaoji/vue-cesium",
+        "npm": "vue-cesium",
         "reproduceLinks": [
           {
-            "name": "jsfiddle",
-            "link": "https://jsfiddle.net/mmx38qxw/"
-          },
-          {
             "name": "codepen",
-            "link": "https://codepen.io/ziyoung/pen/rRKYpd"
-          }
-        ]
-      },
-      {
-        "name": "Element Plus",
-        "github": "element-plus/element-plus",
-        "npm": "element-plus",
-        "reproduceLinks": [
-          {
-            "name": "jsfiddle",
-            "link": "https://jsfiddle.net/iamkun/ods20k7t/"
-          },
-          {
-            "name": "codepen",
-            "link": "https://codepen.io/iamkun/pen/YzWMaVr"
+            "link": "https://codepen.io/zouyaoji/pen/bGBOyJM"
           },
 					{
             "name": "codesandbox",
-            "link": "https://codesandbox.io/s/element-plus-spa-ms973?file=/src/App.vue"
+            "link": "https://codesandbox.io/s/vue-cesium-start-ecxmo?file=/src/App.vue"
           }
         ]
       }
@@ -47,36 +28,14 @@
     ],
     "issueUsage": "Issue 是用作提交 Bug 以及请求新特性的，对于简单的问题，请查阅以下资源：",
     "links": {
-      "Element UI": [
+      "VueCesium": [
         {
           "desc": "官网：",
-          "link": "http://element.eleme.io/#/zh-CN"
+          "link": "https://zouyaoji.top/vue-cesium/#/zh-CN"
         },
         {
           "desc": "文档：",
-          "link": "http://element.eleme.io/#/zh-CN/component/"
-        },
-        {
-          "desc": "常见问题：",
-          "link": "https://github.com/ElemeFE/element/blob/dev/FAQ.md#常见问题"
-        },
-        {
-          "desc": "SegmentFault：",
-          "link": "https://segmentfault.com/t/element"
-        },
-        {
-          "desc": "Gitter：",
-          "link": "https://gitter.im/ElemeFE/element"
-        }
-      ],
-      "Element Plus": [
-        {
-          "desc": "官网：",
-          "link": "https://element-plus.org/#/zh-CN"
-        },
-        {
-          "desc": "文档：",
-          "link": "https://element-plus.org/#/zh-CN/component/"
+          "link": "https://zouyaoji.top/vue-cesium/#/zh-CN/component/"
         }
       ]
     },
@@ -125,36 +84,17 @@
     "repoSelectHint": "I am opening an issue for",
     "repos": [
       {
-        "name": "Element UI",
-        "github": "ElemeFE/element",
-        "npm": "element-ui",
+        "name": "VueCesium",
+        "github": "zouyaoji/vue-cesium",
+        "npm": "vue-cesium",
         "reproduceLinks": [
           {
-            "name": "jsfiddle",
-            "link": "https://jsfiddle.net/mmx38qxw/"
-          },
-          {
             "name": "codepen",
-            "link": "https://codepen.io/ziyoung/pen/rRKYpd"
-          }
-        ]
-      },
-      {
-        "name": "Element Plus",
-        "github": "element-plus/element-plus",
-        "npm": "element-plus",
-        "reproduceLinks": [
-          {
-            "name": "jsfiddle",
-            "link": "https://jsfiddle.net/iamkun/ods20k7t/"
+            "link": "https://codepen.io/zouyaoji/pen/bGBOyJM"
           },
-          {
-            "name": "codepen",
-            "link": "https://codepen.io/iamkun/pen/YzWMaVr"
-          },
-          {
+					{
             "name": "codesandbox",
-            "link": "https://codesandbox.io/s/element-plus-spa-ms973?file=/src/App.vue"
+            "link": "https://codesandbox.io/s/vue-cesium-start-ecxmo?file=/src/App.vue"
           }
         ]
       }
@@ -167,32 +107,14 @@
     ],
     "issueUsage": "The issue list of this repo is exclusively for bug reports and feature requests. For simple questions, please use the following resources:",
     "links": {
-      "Element UI": [
+      "VueCesium": [
         {
           "desc": "HomePage: ",
-          "link": "http://element.eleme.io/#/en-US"
+          "link": "https://zouyaoji.top/vue-cesium/#/zh-CN"
         },
         {
           "desc": "Docs: ",
-          "link": "http://element.eleme.io/#/en-US/component/"
-        },
-        {
-          "desc": "FAQ: ",
-          "link": "https://github.com/ElemeFE/element/blob/dev/FAQ.md#faq"
-        },
-        {
-          "desc": "Gitter: ",
-          "link": "https://gitter.im/element-en/Lobby"
-        }
-      ],
-      "Element Plus": [
-        {
-          "desc": "HomePage: ",
-          "link": "https://element-plus.org/#/en-US"
-        },
-        {
-          "desc": "Docs: ",
-          "link": "https://element-plus.org/#/en-US/component/"
+          "link": "https://zouyaoji.top/vue-cesium/#/zh-CN/component/"
         }
       ]
     },

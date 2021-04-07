@@ -1,8 +1,8 @@
 {
   "name": "issue-generator",
   "version": "0.0.1",
-  "description": "Online issue generator for Element and Element Plus",
-  "author": "Liril <god@liril.net>",
+  "description": "online issue generator for VueCesium",
+  "author": "zouyaoji <370681295@qq.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
