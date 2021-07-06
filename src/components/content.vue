@@ -146,10 +146,11 @@
 
     computed: {
       versionVue () {
-        const isElementUI = this.repo.npm === 'element-ui'
-        return this.version.vue.filter((v) =>
-          isElementUI ? v[0] !== '3' : v[0] === '3'
-        )
+        // const isElementUI = this.repo.npm === 'element-ui'
+        // return this.version.vue.filter((v) =>
+        //   isElementUI ? v[0] !== '3' : v[0] === '3'
+        // )
+        return this.version.vue
       },
 
       lang () {
