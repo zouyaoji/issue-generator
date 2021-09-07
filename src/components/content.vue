@@ -297,6 +297,9 @@ ${this.form.versionBrowser}
 ### Vue version
 ${this.form.versionVue}
 
+### Cesium version
+${this.form.versionCesium}
+
 ### Reproduction Link
 ${this.form.reproduce}
 
