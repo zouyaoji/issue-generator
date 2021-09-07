@@ -1,9 +1,18 @@
+<!--
+ * @Author: zouyaoji@https://github.com/zouyaoji
+ * @Date: 2021-04-07 17:23:57
+ * @LastEditTime: 2021-09-07 09:46:26
+ * @LastEditors: zouyaoji
+ * @Description:
+ * @FilePath: \issue-generator\src\components\header.vue
+-->
 <template lang="pug">
   nav
     el-menu(theme="dark", mode="horizontal", :default-active="language", :router="true")
       li
         a(href="https://github.com/zouyaoji/vue-cesium", target="_blank")
-          img(src="../assets/images/logo.svg")
+          img(src="../assets/images/vue-cesium-logo.svg")
+
       el-menu-item.right(index="zh-CN") 中文
       el-menu-item.right(index="en-US") English
 </template>

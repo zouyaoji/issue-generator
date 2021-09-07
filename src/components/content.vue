@@ -37,6 +37,10 @@
               el-select.block(v-model="form.versionVue", filterable, :loading="loading.vue", :no-match-text="contents.noMatchText", :no-data-text="contents.noDataText", placeholder="")
                 el-option(v-for="tag in versionVue", :label="tag", :value="tag", :key="tag")
 
+            el-form-item(:label="contents.versionCesiumHint", prop="versionCesium")
+              el-select.block(v-model="form.versionCesium", filterable, :loading="loading.vue", :no-match-text="contents.noMatchText", :no-data-text="contents.noDataText", placeholder="")
+                el-option(v-for="tag in versionCesium", :label="tag", :value="tag", :key="tag")
+
             el-form-item(:label="contents.reproduceHint", prop="reproduce")
               el-input(v-model="form.reproduce")
 
@@ -121,6 +125,7 @@
           versionRepository: '',
           versionVue: '',
           versionBrowser: '',
+          versionCesium: '',
           reproduce: '',
           steps: '',
           expected: '',
@@ -138,7 +143,8 @@
         },
         version: {
           repo: [],
-          vue: []
+          vue: [],
+          cesium: []
         },
         issue: ''
       }
@@ -146,11 +152,11 @@
 
     computed: {
       versionVue () {
-        // const isElementUI = this.repo.npm === 'element-ui'
-        // return this.version.vue.filter((v) =>
-        //   isElementUI ? v[0] !== '3' : v[0] === '3'
-        // )
         return this.version.vue
+      },
+
+      versionCesium () {
+        return this.version.cesium
       },
 
       lang () {
@@ -164,7 +170,8 @@
       api () {
         return {
           repositoryVersion: `https://data.jsdelivr.com/v1/package/npm/${this.repo && this.repo.npm}`,
-          vueVersion: 'https://data.jsdelivr.com/v1/package/npm/vue'
+          vueVersion: 'https://data.jsdelivr.com/v1/package/npm/vue',
+          cesiumVersion: 'https://data.jsdelivr.com/v1/package/npm/cesium'
         }
       },
 
@@ -325,11 +332,18 @@ ${this.form.desc}
         const response = await axios.get(this.api.vueVersion)
         this.version.vue = response.data.versions
         this.form.versionVue = this.versionVue[0]
+      },
+
+      async fetchCesiumVersion () {
+        const response = await axios.get(this.api.cesiumVersion)
+        this.version.cesium = response.data.versions
+        this.form.versionCesium = this.versionCesium[0]
       }
     },
 
     mounted () {
       this.fetchVueVersion()
+      this.fetchCesiumVersion()
     }
   }
 </script>
