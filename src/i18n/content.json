@@ -104,6 +104,14 @@
 					{
             "name": "codesandbox",
             "link": "https://codesandbox.io/s/vue-cesium-start-ecxmo?file=/src/App.vue"
+          },
+          {
+            "name": "stackblitz-project",
+            "link": "https://stackblitz.com/edit/vue-cesium-demo?file=index.html"
+          },
+          {
+            "name": "stackblitz-repository",
+            "link": "https://stackblitz.com/~/github.com/zouyaoji/vue-cesium-demo"
           }
         ]
       }
